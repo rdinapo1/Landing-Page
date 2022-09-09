@@ -1,0 +1,1 @@
+Starting Landing Page project for Odin Course. This will be a my README.md file. Looking forward to creating this page and updating the Git.
