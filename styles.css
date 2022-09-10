@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 80px;
+}
+
+.left {
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding: 8px;
+    margin: 0;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main {
+    border: solid orange;
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1;
+    padding: 80px;
+
+}
+
+.left-main {
+    border: solid red; 
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+
+}
+
+.awesome {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.placeholder {
+    border: solid cyan;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.random {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    border: solid orange;
+    background: #e5e7eb;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 150px;
+    gap: 10px;
+}
+.quotes {
+    border: solid red;
+    
+}
+
+.author {
+    border: solid blue;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+}
+
+.signup {
+    background: #3882f6;
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
