@@ -48,16 +48,16 @@ a {
     justify-content: space-between;
     align-content: center;
     flex: 1;
-    padding: 60px 80px;
+    padding: 0 65px;
     gap: 20px;
 
 }
 
 .left-main {
-    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 
 }
 
@@ -73,18 +73,19 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
-.websitebutton {
-    border: solid purple;
+.main .button {
+    color: #f9faf8;
+    border: solid #3882f6;
     background-color: #3882f6;
-    padding-top: 15px;
+      align-self: flex-start;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-top: 15px
 }
 
-.placeholder {
-    background: grey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+.main .image {
+    align-self: center;
 }
 
 .random {
@@ -106,7 +107,6 @@ a {
 }
 
 .container {
-    border: solid orange;
     background: #e5e7eb;
     flex: 1;
     display: flex;
@@ -172,7 +172,7 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
-.signupbutton {
+.signup .button {
     color: #f9faf8;
     border: solid #f9faf8;
     background-color: #3882f6;
