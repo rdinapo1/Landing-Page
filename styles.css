@@ -47,10 +47,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
     flex: 1;
     padding: 0 65px;
     gap: 20px;
-
 }
 
 .left-main {
